@@ -33,9 +33,10 @@ Ejercicio 2: ¿Seguro que es un numero?
 	>>>suma_digitos(555)
 	15
 
-**Dificultad:** baja-media
 
 >[Nota: para transformar una variable a string (cadena) se usa la funcion str(x) y para convertir algo a numero se usa int(x)]
+
+**Dificultad:** baja-media
 
 
 Ejercicio 3: A factorizar!
