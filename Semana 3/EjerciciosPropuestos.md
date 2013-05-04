@@ -34,7 +34,8 @@ Ejercicio 2: ¿Seguro que es un numero?
 	15
 
 **Dificultad:** baja-media
-[Nota: para transformar una variable a string (cadena) se usa la funcion str(x) y para convertir algo a numero se usa int(x)]
+
+>[Nota: para transformar una variable a string (cadena) se usa la funcion str(x) y para convertir algo a numero se usa int(x)]
 
 
 Ejercicio 3: A factorizar!
@@ -51,7 +52,7 @@ Ejercicio 3: A factorizar!
 	>>factorial(5)
 	120
 
-[[Nota para los que ya hayan programado antes: Hacerlo solo con bucles for y sin recursividad]]
+>[[Nota para los que ya hayan programado antes: Hacerlo solo con bucles for y sin recursividad]]
 
 **Dificultad:** media
 
@@ -75,7 +76,7 @@ Ejercicio 4: Rizando el rizo de las listas.
 	>>>total_empresas(ejemplo_lista)
 	(3,17000,130000)
 
-[[Nota: No devuelve una lista con los tres valores, sino que devuelve los tres valores]]
+>[[Nota: No devuelve una lista con los tres valores, sino que devuelve los tres valores]]
 
 **Dificultad:** media-alta
 
