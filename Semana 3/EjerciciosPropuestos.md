@@ -2,21 +2,16 @@ Sem3Ej2+Nombre
 =============
 
 **Propuesta:** 
->Hacer un método que reciba como parametro un array de numeros (una lista) y devuelva la multiplicaciones de todos ellos.
+>Hacer un método que reciba cuatro parámetros, y devuelve el primero por el segundo, el tercero entre el cuarto, y el segundo menos el tercero.
 
 **Ejemplos:**
 
-	>>>multiplicaLista([5])
-	5
+	>>>funcionRara(10,5,6,3)
+	(50,2,-3)
 
-	>>>multiplicaLista([1,2,3,4])
-	24
+>[[Nota: Debe devolver los tres, no una cadena con el resultado.]]
 
-	>>>multiplicaLista([-1,1,2,3,4])
-    -24
-
-
-**Dificultad:** baja-media
+**Dificultad:** baja
 
 
 Sem3Ej3+Nombre
