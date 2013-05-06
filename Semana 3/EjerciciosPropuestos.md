@@ -7,7 +7,7 @@ Sem3Ej2+Nombre
 **Ejemplos:**
 
 	>>>funcionRara(10,5,6,3)
-	(50,2,-3)
+	(50,2,-1)
 
 >[[Nota: Debe devolver los tres, no una cadena con el resultado.]]
 
