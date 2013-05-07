@@ -1,12 +1,9 @@
-def repite_saludo(n, saludo):
-	"""
-	Recibe un numero "n" y un saludo, y revuelve el saludo concatenado n veces
+def main():
+	total = 1
+	num = raw_input("Numero: ")
+	for i in range(1,int(num)+1):
+		total*=i
+	print total
 
-	>>> repite_saludo(3, "buenas")
-	buenasbuenasbuenas
-	"""
-	return saludo * n
-
-print(repite_saludo(3, "buenas "))
-print(repite_saludo(5, "que tal "))
-print(repite_saludo(10, "pues bien "))
+if __name__ == "__main__":
+	main()

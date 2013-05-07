@@ -1,13 +1,15 @@
-def repite_hola(n):
-	"""
-	Recibe un numero "n" y escibe "Hola" n veces
+def funcionRara(a,b,c,d):
+	return a*b, c/d, b-c
 
-	>>> repite_hola(3)
-	"HolaHolaHola"
-	"""
+def main():
+	a = input("numero 1: ")
+	b = input("numero 2: ")
+	c = input("numero 3: ")
+	d = input("numero 4: ")
 
-	print ("Hola"*n)
+	f1,f2,f3 = funcionRara(a,b,c,d)
 
-repite_hola(3)
-repite_hola(5)
-repite_hola(10)
+	print "%s , %s , %s" % (f1,f2,f3)
+
+if __name__ == "__main__":
+	main()

@@ -1,15 +1,10 @@
-def repite_saludo(n, saludo):
-	"""
-	Recibe un numero "n" y un saludo, y escibe el saludo n veces
+def main():
+	num = raw_input("Numero: ")
+	suma = 0
+	for i in num:
+		suma+=int(i)
+	print suma
 
-	>>> repite_saludo(3, "buenas")
-	buenas
-	buenas
-	buenas
-	"""
-	for i in range(n):
-		print(saludo)
+if __name__ == "__main__":
+	main()
 
-repite_saludo(3, "buenas")
-repite_saludo(5, "que tal")
-repite_saludo(10, "pues bien")
